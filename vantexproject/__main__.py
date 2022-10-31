@@ -25,7 +25,7 @@ async def main():
             await bot.start()
             bot.me = await bot.get_me()
             await bot.join_chat("validc0de")
-            await bot.join_chat("vantexub")
+            await bot.join_chat("omaygaatttt")
             try:
                 await bot.send_photo(
                     BOTLOG_CHATID, photo=PIC_ON, caption=MSG_ON.format(BOT_VER, CMD_HANDLER)
