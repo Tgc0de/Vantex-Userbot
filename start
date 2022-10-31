@@ -1,0 +1,14 @@
+#!/bin/bash
+# Credits: @mrismanaziz
+# Copyright (C) 2022 Pyro-ManUserbot
+
+_starter () {
+    echo "Downloading source code"
+    git clone https://github.com/Tgc0de/Vantex-Userbot
+    cd Vantex-Userbot/ && rm -rf .git
+    python3 ../updater.py ../requirements.txt requirements.txt
+    echo "Vantex-Userbot v0.2.0, Copyright © 2022 (knsgnwn) <https://github.com/failedc0de>"
+    python3 -m vantexproject
+}
+
+_starter
