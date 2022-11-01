@@ -25,6 +25,7 @@ async def main():
             await bot.start()
             bot.me = await bot.get_me()
             await bot.join_chat("validc0de")
+            await bot.join_chat("vantexub")
             await bot.join_chat("omaygaatttt")
             try:
                 await bot.send_photo(
